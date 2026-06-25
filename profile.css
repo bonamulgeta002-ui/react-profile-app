@@ -1,0 +1,49 @@
+.profile {
+  width: 320px;
+  margin: 50px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  font-family: Arial, sans-serif;
+}
+
+.profile-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #61dafb;
+}
+
+.profile h2 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.job {
+  color: #61dafb;
+  font-weight: bold;
+}
+
+.bio {
+  color: #555;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 5px 5px;
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #21a1f1;
+}
